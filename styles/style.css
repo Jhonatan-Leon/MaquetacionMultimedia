@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+.nav{
+    width: 100%;
+    height: 10vh;
+    background: #24282b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 200px;
+    background: linear-gradient(to right, #ffffff 20%, #1293d4 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul{
+    display: flex;
+    margin-right: 250px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #1293d4;
+}
+.option{
+    color: aliceblue;
+    padding: 30px;
+}
+
+
+.barra-azul{
+    width: 100%;
+    height: 7px;
+    background: #1293d4;
+}
+/* Header */
+.fondo-img{
+    width: 100% ;
+    height: 70vh;
+    background-image: url(../assets/cabecera.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.texto-sobre{
+    width: 100%;
+    height: 63.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-fondo{
+    font-size: 70px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 0 25px 0;
+}
+
+.text-fondo{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* nav search */
+.nav-search{
+    width: 100%;
+    height: 12vh;
+    background: #24282b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-2{
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.search{
+    margin-right: 280px;
+}
+
+.salida{
+    width: 250px;
+    padding: 10px;
+}
+
+.sub{
+    width: 100px;
+    background: #e8491d;
+    padding: 12px;
+}
+
+/* content white */
+.first-content{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-html{
+    width: 150px;
+    margin: 0 0 10px 0;
+    margin-left: 68px;
+}
+
+.title-html{
+    text-align: center;
+    padding: 14px;
+}
+
+.text-first{
+    text-align: center;
+}
+
+.logo-css{
+    width: 150px;
+    margin: 0  0 10px 0;
+    margin-left: 68px;
+}
+
+.title-css{
+    text-align: center;
+    padding: 14px;
+}
+
+.logo-brush{
+    width: 150px;
+    margin: 0 0 10px 0;
+    margin-left: 68px;
+}
+
+.title-diseño{
+    text-align: center;
+    padding: 14px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 10vh;
+    background: #1293d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-footer{
+    color: #ffffff;
+}
+
+/* template nosotros */
+.second-content{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-column{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    height: 180px;
+    width: 950px;
+    padding: 20px;
+    margin: 5px 0 5px 0;
+
+}
+
+.title-content{
+    margin: 20px 0 20px 0;
+}
+
+.first-content-gray{
+    height: 150px;
+    width: 950px;
+    background: #24282b;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.text-content{
+    font-size: 20px;
+}
+.text-white{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.content-img{
+    margin: 20px 0 5px 0;
+}
+
+.img-nosotros{
+    width: 1000px;
+    height: 200px;
+}
+/* Aside */
+.lado-derecho{
+    width: 350px;
+    height: 200px;
+    background: #35424a;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px 0 0 150px;
+}
+
+.title-aside{
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+.text-aside{
+    font-size: 17px;
+    color: #ffffff;
+}
+
+/* Third content */
+ .third-content{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .content-column-third{
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ /* TEMPLATE servicios */
+ .third-content{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .title-third-content{
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+ }
+
+ .content-column-third{
+    margin-left: 150px;
+ }
+
+ .web{
+    height: 150px;
+    width: 975px;
+    padding: 15px;
+    background-color: #e6e6e6;
+    margin: 5px 0 5px 0;
+ }
+
+ .title-web{
+    padding: 15px 0 15px 0;
+
+ }
+
+ 
+ .precio{
+    padding: 20px 0 0 0;
+ }
+
+ .content-desarrollo{
+    height: 150px;
+    width: 975px;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    background: #e6e6e6;
+ }
+
+ .title-desarrollo{
+    padding: 15px 0 15px 0;
+ }
+
+ .content-hosting{
+    height: 150px;
+    width: 975px;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    background: #e6e6e6;
+ }
+
+ .title-hosting{
+    padding: 15px 0 15px 0; 
+ }
+
+ /* template contacto */    
+ .form-content{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .formulario-column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+ }
+
+ .title-CONTACTO{
+    font-size: 25px;
+    font-weight: 1000;
+    padding: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
+ }
+
+ .fomrulario{
+    display: flex;
+    flex-direction: column; 
+}
+
+ .contacto{
+    width: 900px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+ }
+
+ .Mensaje{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 100px;
+ }
+
+ .enviar{
+    background: #e8491d;
+    margin: 20px 0 10px 0;
+    width: 900px;
+    height: 50px;
+    color: #ffffff;
+    border-bottom: #e8491d;
+ }
+
+.column-aside{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 0 0px;
+}
+
+.content-map{
+    margin: 0 0 0 150px;
+}
+.map{
+    width: 400px;
+    height: 350px;
+    margin: 20px 0 0 0;
+}
